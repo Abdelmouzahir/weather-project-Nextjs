@@ -28,6 +28,7 @@ const WeekForecast = ({ data }) => {
                 {day.day.maxtemp_c.toFixed()}°
               </span>
             </p>
+            {/* Add a new paragraph element to display the average temperature */}
             <p className="bg-black/25 px-2 italic rounded-xl text-white">
               Low:{" "}
               <span aria-label={`Minimum temperature: ${day.day.mintemp_c.toFixed()} degrees C`}>
