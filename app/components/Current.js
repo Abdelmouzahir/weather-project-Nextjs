@@ -2,6 +2,7 @@ import React from "react";
 import { getCurrentDate } from "../utils/currentDate";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
+{/* create data Logic */}
 const Current = ({ data }) => {
   const weatherIcon = data.current ? data.current.condition.icon : null;
   const currentDate = getCurrentDate();
