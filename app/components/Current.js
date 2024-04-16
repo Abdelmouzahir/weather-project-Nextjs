@@ -14,6 +14,7 @@ const Current = ({ data }) => {
           <h1 className="text-3xl text-white">{location}, Today</h1>
           <p className="text-white">{currentDate}</p>
         </div>
+        {/*Moiz participation */}
         {weatherIcon && (
           <div>
             <img className="w-[50px] object-cover" src={weatherIcon} alt="Weather Icon" />
